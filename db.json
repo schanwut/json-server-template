@@ -1,0 +1,58 @@
+{
+	"system": {
+		"user": {
+			"AttendantID": {
+				"user_111": {
+					"Password": "1",
+					"SessionID": ""
+				},
+				"user_999": {
+					"Password": "1",
+					"SessionID": ""
+				}
+			}
+		},
+		"domain": {
+			"session": {},
+			"messagetype": {
+				"LOGIN": 1,
+				"LOGOUT": 2
+			},
+			"resmessage": {
+				"gen_success": {
+					"ResCode": "0",
+					"ResMessage": "Success"
+				},
+				"gen_failed": {
+					"ResCode": "1",
+					"ResMessage": "Failed"
+				},
+				"gen_invalidsessionid": {
+					"ResCode": "100",
+					"ResMessage": "Invalid SessionID"
+				},
+				"gen_invaliduser_password": {
+					"ResCode": "200",
+					"ResMessage": "Incorrect AttndantID or Password"
+				}
+			}
+		}
+	},
+	"login": {
+		"result": {
+			"ResMessage": {
+				"ResCode": "0",
+				"ResMessage": "Success"
+			},
+			"SessionID": ""
+		}
+	},
+	"logout": {
+		"result": {
+			"ResMessage": {
+				"ResCode": "0",
+				"ResMessage": "Success"
+			}
+		}
+	}
+}
